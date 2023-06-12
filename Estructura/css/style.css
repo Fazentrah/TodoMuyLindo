@@ -1,0 +1,71 @@
+*{
+  padding: 0%;
+  margin: 0%;
+    font-family: 'Lilita One', cursive;
+}
+
+
+body{background-image: url("/Estructura/Multimedia/Multimedia/Img/dove-1861791_640.jpg");
+}
+
+#carrito{background-image: url(/Estructura/Multimedia/Multimedia/Img/shopping-cart-304843_1280.webp);}
+
+h1{color: #d662cd;
+font-family: 'Caveat', cursive;
+}
+
+h2{color: #d662cd;
+font-family:'Caveat', cursive;}
+
+h3{color: #f0a315;}
+
+
+  header{background-color: #ff66de;
+  width:100%;
+  top: 0%;
+
+}
+
+
+
+.tarjeta{
+  display:inline-flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:420px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #000000d1;
+  border-radius:15px;
+  font-family: sans-serif;
+  background-color: aquamarine;
+}
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+.cuerpo{
+  padding: 10px;
+}
+.pie{
+  background: #ff66de;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+content: ""
+}
+
+footer{background-color: rgb(231, 176, 58);
+
+}
